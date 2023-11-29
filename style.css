@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;}
+
+body{
+	margin:0;
+	border-top: 10px solid #334AFF;
+	border-bottom: 10px solid #334AFF;
+}  
+body{
+	margin:0;
+	font-family: "Montserrat", sans-serif;
+	border-top: 10px solid white;
+	border-bottom: 10px solid white;
+
+}
+
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+.header-image{
+	max-width: 100%;
+	margin-left: auto;
+margin-right: auto;
+	display: block;
+	height: auto;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+
+main{
+	max-width: 800px;
+	margin: 20px auto;
+	}
+
+footer{
+	text-align: center;
+	border-top: 1px solid darkblue;
+	
+
+}
+
+#home-hero{
+	background-image: url("images/orange.jpg");
+	height: 150px;
+	width:	100%;
+	text-align: center;
+
+}
+#canvas{
+	background-image: url("images/sky.jpg") ;
+}
+
+{
+	text-shadow: 2px 2px 2px black;
+
+}
+
+
+p{
+	color: black;
+	text-align: left;
+	border-top: 1px darkblue;
+}
+a:link{
+	color: black;
+	font-style: oblique;
+	text-align: center;
+
+}
+a:visited{
+	color: blue;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: blue;
+}
+.myButton{
+	color: blue;
+	height: auto;
+	
+
+}
+
+.home-photo{
+	float: right;
+	max-width: 50%;
+	height: atuo;
+	margin: 50px 0 10px 20px;
+}
+#home-hero h1{
+	font-family: 'Dancing Script', cursive;
+	color:floralwhite;
+	font-size:60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 50px 0;
+	margin:0;
+}
+.footer1000{
+	background-color:#EF9D2E ;
+	background-size: cover;	
+}
+.footer-bottom{
+	background-color: #3D2401;
+	color: white;
+	font-size: 18px;
+	background-size: cover;
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+
+footer{
+	clear: both;
+}
+
+nav ul{
+	list-style-type: none;
+}
+nav	li{
+	display:inline;
+}
+nav	a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav	a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+nav	a:hover{
+	color: gray;
+}
+nav	a:active{
+	color: lightgray;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+h2{
+	font-size: 2em;
+	color: Black;
+}
+nav{
+	background-color: orange;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+	padding: 5px;
+	font-size: 15px;
+
+
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
