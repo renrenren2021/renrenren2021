@@ -1,0 +1,96 @@
+/* This is the CSS style sheet for my puppy website */
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Roboto:ital,wght@0,300;
+0,700;
+1,300&display=swap');
+ body{
+     font-family: 'Roboto', sans-serif;
+}
+ main{
+     max-width: 1200px;
+     margin: 20px auto;
+}
+ footer{
+     text-align: center;
+     border-top: 1px solid gray;
+     padding: 10px;
+     background-color: #33F5FF;
+}
+ blockquote{
+     background-color: #FFCD33;
+     border-left: 10px solid gray;
+     padding: 30px;
+}
+ .home-hero{
+     background-image: url(images/header.jpg);
+     height: 475px;
+     background-size: cover;
+     background-position: center;
+     color: #042837;
+     padding: 10px 10px 10px 30px;
+}
+ a:link{
+     color: purple;
+}
+ a:visited{
+     color: purple;
+}
+ a:hover{
+     color: blue;
+}
+ a:active{
+     color: black;
+}
+ nav ul{
+     list-style-type: none;
+}
+ nav li{
+     display:inline;
+}
+ nav a{
+     text-decoration: none;
+     padding-right: 10px;
+}
+ nav a:link{
+     color: white;
+}
+ nav a:visited{
+     color: white;
+}
+ nav a:hover{
+     color: gray;
+}
+ nav a:active{
+     color: lightgray;
+}
+ h1{
+     text-align: center;
+     font-size: 4em;
+}
+ h2{
+     font-size: 2em;
+     color: blue;
+}
+ nav{
+     background-color: #33F5FF;
+     border-top: 2px darkblue solid;
+     border-bottom: 2px darkblue solid;
+     padding: 5px;
+}
+ body{
+     font-family: 'Source Sans Pro', sans-serif;
+     margin: 0;
+}
+ nav ul{
+     list-style-type: none;
+     text-align: center;
+}
+ @media only screen and (max-width: 1024px){
+     h1{
+         font-size: 2em;
+    }
+}
+ @media only screen and (max-width: 768px){
+     h1{
+         font-size: 1.5em;
+    }
+    

@@ -1,3 +1,4 @@
+/* This is the CSS style sheet for my final project. */
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
 body{
 	font-family: 'Roboto', sans-serif;}
@@ -123,7 +124,6 @@ a:active{
 
 .home-photo{
 	float: right;
-	max-width: 50%;
 	height: atuo;
 	margin: 50px 0 10px 20px;
 }
@@ -145,6 +145,9 @@ a:active{
 	color: white;
 	font-size: 18px;
 	background-size: cover;
+}
+.nav{
+	background-color: skyblue;
 }
 
 /* JavaScript Game changes for mobile */

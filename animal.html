@@ -1,0 +1,88 @@
+<!--  This is my animal page for my final project.-->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta name="description" content="animal">
+      <title>WEBSITE NAME::PAGE NAME</title>
+      <meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Bootstrap Stylesheet-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <style>
+         .column{
+         background-color: blue;
+         height: 50px;
+         width: 100%;
+         margin: 5px;
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <h1>Animals Crossing</h1>
+      </header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </nav>
+      <main>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12">
+                  <img class="header-image" src="images/hog.jpg" alt="guitar shop" height="400" width="1200"> 
+                  <p>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control... you need to wait for them.</p>
+               </div>
+            </div>
+            <div class="gallery">
+               <div class="preview">
+                  <img id="preview" src="images/sea.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+               </div>
+               <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+                  <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/eagle.jpg" alt="" />
+                  <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/fox.jpg" alt=""  />
+                  <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/frog.jpg" alt="" />
+                  <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/lizard.jpg" alt="" />
+                  <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/sea.jpg" alt=""  />
+                  <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/spider.jpg" alt="" />
+                  <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/sheep.jpg" alt="" />
+                  <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/rabbit.jpg" alt="" />
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer>
+         <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-3">
+               <p><a href="mailto:me@gmail.com" target="_blank">Github</a> &bull;
+                  <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-3">
+               <p><a href="mailto:me@gmail.com" target="_blank">Email Me</a> &bull;
+                  <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-3">
+               <a href="tel:999999999">Call Me</a> &bull;
+               <i class="fa fa-phone-square fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-3">
+               <a href="sms:999999999"> Text Me</a> &bull;
+               <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+            </div>
+         </div>
+         <small>&copy; Jinghao Ren. All rights reserved.</small>
+         <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+      </footer>
+      <!--jQuery, Popper, and Bootstrap Javascript files-->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
